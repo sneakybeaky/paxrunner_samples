@@ -1,7 +1,7 @@
 # options
 --p=felix
 #--profiles=spring.dm,compendium,war,web,log,felix.webconsole
---profiles=felix.webconsole,compendium,log
+--profiles=felix.webconsole,config
 --vmOptions=-Dorg.ops4j.pax.logging.DefaultServiceLog.level=DEBUG -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005
 # provisioning
 mvn:asm/asm-all/3.2
@@ -45,7 +45,7 @@ mvn:org.apache.aries.application/org.apache.aries.application.utils/0.3
 mvn:org.apache.aries.application/org.apache.aries.application.runtime/0.3
 
 #27	ACTIVE      org.apache.aries.application.deployment.management_0.3
-#mvn:org.apache.aries.application/org.apache.aries.application.management/0.3
+mvn:org.apache.aries.application/org.apache.aries.application.deployment.management/0.3
 
 #28	ACTIVE      org.apache.aries.application.modeller_0.3
 mvn:org.apache.aries.application/org.apache.aries.application.modeller/0.3
