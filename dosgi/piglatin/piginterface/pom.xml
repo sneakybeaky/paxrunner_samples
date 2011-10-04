@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.osgiknowhow.sandbox</groupId>
+  <artifactId>pig-latin-service-interface</artifactId>
+  <version>1.0.0</version>
+  <packaging>bundle</packaging>
+  <name>Pig Latin Service Interface</name>
+  
+  <build>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.felix</groupId>
+          <artifactId>maven-bundle-plugin</artifactId>
+          <extensions>true</extensions>
+          <configuration>
+            <instructions>
+              <Export-Package>com.osgiknowhow.sandbox</Export-Package>
+            </instructions>
+          </configuration>
+        </plugin>
+      </plugins>
+  </build>
+  
+</project>

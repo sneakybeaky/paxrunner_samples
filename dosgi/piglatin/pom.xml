@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.osgiknowhow.sandbox</groupId>
+  <artifactId>piglatin</artifactId>
+
+  <packaging>pom</packaging>
+
+  <name>Pig Latin Service OSGi Examples</name>
+  <version>1.0.0</version>
+
+  <modules>
+    <module>piginterface</module>
+    <module>pigservice</module>
+    <module>pigclient</module>
+  </modules>
+</project>
