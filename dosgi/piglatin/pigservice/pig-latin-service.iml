@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration osmorcControlsManifest="true" manifestLocation="" jarfileLocation="pig-latin-service-1.0.0.jar" outputPathType="CompilerOutputPath" useBndFile="false" bndFileLocation="" useBundlorFile="false" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="com.osgiknowhow.sandbox.pig-latin-service" bundleVersion="" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false">
+        <additionalProperties>
+          <property key="Bundle-Name" value="Pig Latin Service" />
+          <property key="Private-Package" value="com.osgiknowhow.sandbox.internal.*" />
+          <property key="Export-Package" value="com.osgiknowhow.sandbox" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+    <facet type="osgiBundleFacet" name="OSGi Bundle">
+      <configuration />
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset1" name="service" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/pig-latin-osgi.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/pig-latin-context.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="pig-latin-service-interface" />
+    <orderEntry type="library" name="Maven: junit:junit:4.5" level="project" />
+  </component>
+</module>
+
