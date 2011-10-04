@@ -1,1 +1,3 @@
 runner/
+/dosgi/serverrunner
+/dosgi/clientrunner
