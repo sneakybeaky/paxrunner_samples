@@ -1,0 +1,1 @@
+\javastuff\pax-runner-1.7.5\bin\pax-run.bat --p=e --profiles=cxf.dosgi.multibundle/1.1,event,felix.webconsole piglatin\pigservice\target\pig-latin-service-1.0.0.jar
