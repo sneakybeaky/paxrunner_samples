@@ -1,0 +1,1 @@
+pax-run --args=file:remote_display.felix
