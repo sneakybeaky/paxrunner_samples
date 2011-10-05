@@ -1,0 +1,13 @@
+# options
+--p=felix
+--dir=clientrunner
+--profiles=cxf.dosgi.singlebundle/1.1,event,log,felix.fileinstall,confman,compendium
+
+#Apache Felix WebConsole
+scan-bundle:mvn:org.apache.felix/org.apache.felix.webconsole/3.0.0
+scan-bundle:mvn:org.apache.felix/org.apache.felix.webconsole.plugins.event/1.0.2
+scan-bundle:mvn:org.apache.felix/org.apache.felix.webconsole.plugins.memoryusage/1.0.0
+
+# provisioning
+mvn:org.apache.cxf.dosgi.samples/cxf-dosgi-ri-samples-discovery-client/1.2
+mvn:org.apache.cxf.dosgi.samples/cxf-dosgi-ri-samples-discovery-interface/1.2
