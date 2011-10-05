@@ -2,7 +2,7 @@
 --p=felix
 --dir=remoteDisplayRunner
 --profiles=event,log,felix.fileinstall,confman,compendium
---vmOptions=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5006
+--vmOptions=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5006 -Dfelix.fileinstall.dir=../config/remote_display_load
 
 
 # CXF
