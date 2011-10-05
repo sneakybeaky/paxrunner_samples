@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.osgiknowhow.sandbox</groupId>
+  <artifactId>pig-latin-service</artifactId>
+  <version>1.0.0</version>
+  <packaging>bundle</packaging>
+  <name>Pig Latin Service</name>
+  
+  <build>
+      <plugins>
+          <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+              <source>1.5</source>
+              <target>1.5</target>
+            </configuration>
+          </plugin>
+        <plugin>
+          <groupId>org.apache.felix</groupId>
+          <artifactId>maven-bundle-plugin</artifactId>
+          <extensions>true</extensions>
+          <configuration>
+            <instructions>
+              <Export-Package>com.osgiknowhow.sandbox</Export-Package>
+              <Private-Package>com.osgiknowhow.sandbox.internal.*</Private-Package>
+            </instructions>
+          </configuration>
+        </plugin>
+      </plugins>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.osgiknowhow.sandbox</groupId>
+      <artifactId>pig-latin-service-interface</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+	
+	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.5</version>
+	</dependency>
+  </dependencies>  
+  
+</project>
