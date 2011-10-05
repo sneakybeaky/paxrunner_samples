@@ -1,3 +1,5 @@
 runner/
 /dosgi/serverrunner
 /dosgi/clientrunner
+/cxf-discovery/displayControllerRunner
+/cxf-discovery/remoteDisplayRunner
