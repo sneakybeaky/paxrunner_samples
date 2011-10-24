@@ -1,0 +1,1 @@
+pax-run --log=debug --args=file:rest-server.felix
