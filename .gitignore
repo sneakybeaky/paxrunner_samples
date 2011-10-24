@@ -2,5 +2,11 @@ runner/
 /dosgi/serverrunner
 /dosgi/clientrunner
 /cxf-discovery/displayControllerRunner
+<<<<<<< HEAD
 /cxf-discovery/remoteDisplayRunner
 /cxf-rest/greeter-rest/.idea
+=======
+/cxf-discovery/remoteDisplayRunner
+/cxf-rest/client
+/cxf-rest/server
+>>>>>>> Made shell scripts executable
