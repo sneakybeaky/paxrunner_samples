@@ -9,6 +9,9 @@ scan-bundle:mvn:org.apache.geronimo.specs/geronimo-javamail_1.4_spec/1.2@1
 scan-bundle:mvn:org.apache.geronimo.specs/geronimo-ws-metadata_2.0_spec/1.1.2@1
 scan-bundle:mvn:org.jdom/com.springsource.org.jdom/1.0.0@1
 
+#needed for JSON support for CXF
+mvn:org.codehaus.jettison/jettison/1.2@3
+
 # Pax Web 0.6.0
 scan-composite:mvn:org.ops4j.pax.runner.profiles/web/0.6.0/composite@1
 # Spring DM 1.2.0
