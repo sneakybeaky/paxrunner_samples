@@ -5,6 +5,10 @@ runner/
 /cxf-discovery/remoteDisplayRunner
 .idea/
 target/
+felix/
+bundles/
+cache/
+*.log
 *.ipr
 *.iml
 /cxf-rest/client
