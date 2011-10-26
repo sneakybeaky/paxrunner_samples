@@ -6,6 +6,9 @@
 --vmOptions=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 -Dfelix.fileinstall.dir=../config/rest-server -Dfelix.fileinstall.disableConfigSave=true
 --profilesRepositories=https://raw.github.com/sneakybeaky/paxrunner_samples/master/runner-repository
 
+#obr
+scan-bundle:mvn:org.apache.felix/org.apache.felix.bundlerepository/1.6.6@5
+
 # provisioning
 #needed for JSON support for CXF
 mvn:org.codehaus.jettison/jettison/1.2@20

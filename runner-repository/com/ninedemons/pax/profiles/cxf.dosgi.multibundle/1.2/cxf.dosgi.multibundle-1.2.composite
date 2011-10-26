@@ -13,7 +13,7 @@ scan-bundle:mvn:org.jdom/com.springsource.org.jdom/1.0.0@1
 scan-bundle:mvn:org.codehaus.jettison/jettison/1.2@3
 
 # Pax Web 0.6.0
-scan-composite:mvn:org.ops4j.pax.runner.profiles/web/0.6.0/composite@1
+# scan-composite:mvn:org.ops4j.pax.runner.profiles/web/0.6.0/composite@1
 # Spring DM 1.2.0
 scan-composite:mvn:org.ops4j.pax.runner.profiles/spring.dm/1.2.0/composite@2
 
