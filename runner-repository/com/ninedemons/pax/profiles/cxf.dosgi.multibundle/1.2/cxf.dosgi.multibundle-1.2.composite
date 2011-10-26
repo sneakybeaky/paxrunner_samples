@@ -22,7 +22,7 @@ scan-bundle:mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.wsdl
 scan-bundle:mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xmlsec/1.3.0_1
 scan-bundle:mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.wss4j/1.5.4_1
 scan-bundle:mvn:org.apache.ws.commons.schema/XmlSchema/1.4.5
-#scan-bundle:mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xmlschema/1.4.2_1
+scan-bundle:mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xmlschema/1.4.2_1
 scan-bundle:mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.asm/2.2.3_1
 scan-bundle:mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xmlresolver/1.2_1
 scan-bundle:mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.neethi/2.0.4_1
@@ -31,7 +31,7 @@ scan-bundle:mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.comm
 scan-bundle:mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.saaj-api-1.3/1.3.0
 scan-bundle:mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.stax-api-1.0/1.3.0
 scan-bundle:mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.jaxb-api-2.1/1.3.0
-#scan-bundle:mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.jaxws-api-2.1/1.3.0
+scan-bundle:mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.jaxws-api-2.1/1.3.0
 scan-bundle:mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.jsr311-api-1.0/1.3.0
 
 # released dosgi bundles
