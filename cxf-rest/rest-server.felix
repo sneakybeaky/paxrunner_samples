@@ -4,7 +4,7 @@
 --dir=server
 --profiles=event,log,confman,compendium,com.ninedemons.pax.profiles/cxf.dosgi.multibundle/1.2,com.ninedemons.pax.profiles/felix.fileinstall/3.1.10,com.ninedemons.pax.profiles/felix.webconsole/3.1.8
 --vmOptions=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 -Dfelix.fileinstall.dir=../config/rest-server -Dfelix.fileinstall.disableConfigSave=true
---profilesRepositories=file://C:/work/paxrunner_samples/runner-repository
+--profilesRepositories=https://raw.github.com/sneakybeaky/paxrunner_samples/master/runner-repository
 
 # provisioning
 #needed for JSON support for CXF
