@@ -3,3 +3,4 @@ runner/
 /dosgi/clientrunner
 /cxf-discovery/displayControllerRunner
 /cxf-discovery/remoteDisplayRunner
+/cxf-rest/greeter-rest/.idea
