@@ -3,7 +3,6 @@
 --startLevel=25
 --dir=server
 --ee=OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.0,JRE-1.1,J2SE-1.2,J2SE-1.3,J2SE-1.4,J2SE-1.5
-#--systemPackages=javax.xml.ws.wsaddressing
 --profiles=event,log,confman,compendium,com.ninedemons.pax.profiles/cxf.dosgi.multibundle/1.2,com.ninedemons.pax.profiles/felix.fileinstall/3.1.10,com.ninedemons.pax.profiles/felix.webconsole/3.1.8
 --vmOptions=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 -Dfelix.fileinstall.dir=../config/rest-server -Dfelix.fileinstall.disableConfigSave=true
 --profilesRepositories=https://raw.github.com/sneakybeaky/paxrunner_samples/master/runner-repository
@@ -12,7 +11,5 @@
 scan-bundle:mvn:org.apache.felix/org.apache.felix.bundlerepository/1.6.6@5
 
 # provisioning
-#needed for JSON support for CXF
-mvn:org.codehaus.jettison/jettison/1.2@20
 #file:greeter-rest/impl/target/cxf-dosgi-ri-samples-greeter-rest-json-impl-1.2-SNAPSHOT.jar@nostart@update
 mvn:org.apache.cxf.dosgi.samples/cxf-dosgi-ri-samples-greeter-rest-interface/1.2@20
