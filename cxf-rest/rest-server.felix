@@ -7,7 +7,6 @@
 --profilesRepositories=https://raw.github.com/sneakybeaky/paxrunner_samples/master/runner-repository
 
 # provisioning
-#needed for JSON support for CXF
-mvn:org.codehaus.jettison/jettison/1.2@20
+
 #file:greeter-rest/impl/target/cxf-dosgi-ri-samples-greeter-rest-json-impl-1.2-SNAPSHOT.jar@nostart@update
 mvn:org.apache.cxf.dosgi.samples/cxf-dosgi-ri-samples-greeter-rest-interface/1.2@20
