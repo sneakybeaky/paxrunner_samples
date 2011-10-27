@@ -3,4 +3,13 @@ runner/
 /dosgi/clientrunner
 /cxf-discovery/displayControllerRunner
 /cxf-discovery/remoteDisplayRunner
-/cxf-rest/greeter-rest/.idea
+.idea/
+target/
+felix/
+bundles/
+cache/
+*.log
+*.ipr
+*.iml
+/cxf-rest/client
+/cxf-rest/server
