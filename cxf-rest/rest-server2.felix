@@ -55,4 +55,4 @@ file:C:/javastuff/apache-cxf-dosgi-ri-1.2/dosgi_bundles/cxf-dosgi-ri-topology-ma
 # provisioning
 
 #file:greeter-rest/impl/target/cxf-dosgi-ri-samples-greeter-rest-json-impl-1.2-SNAPSHOT.jar@nostart@update
-mvn:org.apache.cxf.dosgi.samples/cxf-dosgi-ri-samples-greeter-rest-interface/1.2@20
+#mvn:org.apache.cxf.dosgi.samples/cxf-dosgi-ri-samples-greeter-rest-interface/1.2@20

@@ -70,7 +70,7 @@ public class Activator implements BundleActivator {
         props.put("org.apache.cxf.ws.databinding", "jaxb");
         props.put("service.exported.configs", "org.apache.cxf.rs");
         props.put("service.exported.intents", "HTTP");
-        props.put("org.apache.cxf.rs.provider","org.apache.cxf.jaxrs.provider.AegisElementProvider,org.apache.cxf.jaxrs.provider.AegisJSONProvider");
+        //props.put("org.apache.cxf.rs.provider","org.apache.cxf.jaxrs.provider.AegisElementProvider,org.apache.cxf.jaxrs.provider.AegisJSONProvider");
         return props;
     }
     

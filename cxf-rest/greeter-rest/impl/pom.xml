@@ -24,12 +24,12 @@
     <artifactId>cxf-dosgi-ri-samples-greeter-rest-json-impl</artifactId>
     <packaging>bundle</packaging>
     <name>Distributed OSGI Greeter Implementation with JSON Bundle</name>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
 
     <parent>
-        <groupId>org.apache.cxf.dosgi</groupId>
-        <artifactId>cxf-dosgi-ri-parent</artifactId>
-        <version>1.2</version>
+        <groupId>com.ninedemons.cxf.dosgi.samples</groupId>
+        <artifactId>cxf-dosgi-ri-bundles-greeter-rest-json</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
 
     <properties>
@@ -40,20 +40,21 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.felix</groupId>
-            <artifactId>org.apache.felix.framework</artifactId>
-            <version>${felix.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.apache.felix</groupId>
-                    <artifactId>org.osgi.foundation</artifactId>
-                </exclusion>
-            </exclusions>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.core</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.cxf.dosgi.samples</groupId>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.compendium</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ninedemons.cxf.dosgi.samples</groupId>
             <artifactId>cxf-dosgi-ri-samples-greeter-rest-interface</artifactId>
-            <version>${cxf-version}</version>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.servicemix.specs</groupId>
+          <artifactId>org.apache.servicemix.specs.jsr311-api-1.0</artifactId>
         </dependency>
     </dependencies>
 
@@ -62,6 +63,7 @@
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
                 <configuration>
                     <instructions>
                         <Bundle-Name>CXF Distributed OSGi Greeter Demo Service Rest with JSON Implementation Bundle</Bundle-Name>
