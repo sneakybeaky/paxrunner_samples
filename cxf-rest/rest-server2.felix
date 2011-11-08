@@ -5,7 +5,7 @@
 --ee=OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.0,JRE-1.1,J2SE-1.2,J2SE-1.3,J2SE-1.4,J2SE-1.5
 --profiles=event,log,confman,compendium,com.ninedemons.pax.profiles/felix.fileinstall/3.1.10,com.ninedemons.pax.profiles/felix.webconsole/3.1.8
 #--profiles=event,log,confman,compendium,com.ninedemons.pax.profiles/felix.fileinstall/3.1.10
---vmOptions=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 -Dfelix.fileinstall.dir=../config/rest-server -Dfelix.fileinstall.disableConfigSave=true
+--vmOptions=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 -Dfelix.fileinstall.dir=../config/rest-server -Dfelix.fileinstall.disableConfigSave=false
 --profilesRepositories=file:C:/work/paxrunner_samples/runner-repository
 
 #obr
