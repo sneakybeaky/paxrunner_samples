@@ -1,1 +1,1 @@
-pax-run --log=debug --args=file:rest-server.felix
+pax-run --log=debug --args=file:rest-server2.felix

@@ -33,27 +33,43 @@ public class Activator implements BundleActivator {
     private ServiceRegistration registration2;
 
     public void start(BundleContext bc) throws Exception {
-        //Dictionary props = getProperties("http://localhost:9090/greeter");
-		Dictionary props = getProperties("/greeter");
-        registration = bc.registerService(GreeterService.class.getName(), 
+
+		//Dictionary props = getPropertiesForAddress("http://localhost:9090/greeter");
+        Dictionary props = getPropertiesForContext("/greeter");
+
+        registration = bc.registerService(GreeterService.class.getName(),
                                           new GreeterServiceImpl(), props);
         
-        //props = getProperties("http://localhost:9091/greeter2");
-		props = getProperties("/greeter2");
+		props = getPropertiesForContext("/greeter2");
+        //props = getPropertiesForAddress("http://localhost:8282/greeter2");
+
         registration2 = bc.registerService(GreeterService2.class.getName(), 
                                           new GreeterServiceImpl2(), props);
         
     }
 
     @SuppressWarnings("unchecked")
-	private Dictionary getProperties(String address) { 
+    private Dictionary getPropertiesForAddress(String address) {
+        Dictionary properties = getProperties();
+        properties.put("org.apache.cxf.rs.address",address);
+        return properties;
+    }
+
+    @SuppressWarnings("unchecked")
+    private Dictionary getPropertiesForContext(String context) {
+        Dictionary properties = getProperties();
+        properties.put("org.apache.cxf.rs.httpservice.context",context);
+        return properties;
+    }
+    
+    @SuppressWarnings("unchecked")
+	private Dictionary getProperties() {
     	Dictionary props = new Hashtable();
 
         props.put("service.exported.interfaces", "*");
+        props.put("org.apache.cxf.ws.databinding", "jaxb");
         props.put("service.exported.configs", "org.apache.cxf.rs");
         props.put("service.exported.intents", "HTTP");
-        //props.put("org.apache.cxf.rs.address", address);
-		props.put("org.apache.cxf.rs.httpservice.context",address);
         props.put("org.apache.cxf.rs.provider","org.apache.cxf.jaxrs.provider.AegisElementProvider,org.apache.cxf.jaxrs.provider.AegisJSONProvider");
         return props;
     }
