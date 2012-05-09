@@ -13,3 +13,14 @@ cache/
 *.iml
 /cxf-rest/client
 /cxf-rest/server
+
+dosgi/piglatin/pigservice/pig-latin-service.iml
+
+dosgi/piglatin/.idea/*
+
+
+dosgi/piglatin/pigclient/pig-latin-client.iml
+
+dosgi/piglatin/piginterface/pig-latin-service-interface.iml
+
+dosgi/piglatin/piglatin.iml
