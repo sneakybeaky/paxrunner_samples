@@ -1,0 +1,1 @@
+pax-run.sh --dir=serverrunner --p=e --profiles=cxf.dosgi.multibundle/1.1,event,felix.webconsole piglatin/pigservice/target/pig-latin-service-1.0.0.jar piglatin/piginterface/target/pig-latin-service-interface-1.0.0.jar
