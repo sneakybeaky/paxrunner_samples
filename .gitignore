@@ -24,3 +24,17 @@ dosgi/piglatin/pigclient/pig-latin-client.iml
 dosgi/piglatin/piginterface/pig-latin-service-interface.iml
 
 dosgi/piglatin/piglatin.iml
+
+dosgi/piglatin/.idea/misc.xml
+
+dosgi/piglatin/.idea/vcs.xml
+
+dosgi/piglatin/.idea/workspace.xml
+
+dosgi/piglatin/pigclient/pig-latin-client.iml
+
+dosgi/piglatin/piginterface/pig-latin-service-interface.iml
+
+dosgi/piglatin/piglatin.iml
+
+dosgi/piglatin/pigservice/pig-latin-service.iml
